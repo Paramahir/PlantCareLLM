@@ -23,10 +23,11 @@ To get started with PlantCareLLM, clone the repository and ensure you have Pytho
 ```bash
 git clone https://github.com/Paramahir/PlantCareLLM.git
 cd PlantCareLLM
-pip install -r requirements.txt  # Assuming a requirements file exists for dependencies
+pip install -r requirements.txt  
 python PlantCareProject/app.py
+```bash
 
-Navigate to http://localhost:5000 in your web browser to access the application.
+## Navigate to http://localhost:5000 in your web browser to access the application.
 
 ## Contributing
 Contributions to PlantCareLLM are welcome! Please feel free to fork the repository, make your changes, and submit a pull request.
