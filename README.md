@@ -20,7 +20,7 @@ Welcome to PlantCareLLM, a Flask-based web application designed to assist in the
 
 To get started with PlantCareLLM, clone the repository and ensure you have Python installed on your system. Install the required dependencies, and run the Flask application to start the web server.
 
-## Requirement - For Running this project after cloning you have to include OPENAI API Key in the app.py file. Please check official openai document to know how to get that file.
+## Requirement - For Running this project after cloning you have to include OPENAI API Key in the app.py file. Please check official openai document to know how to get API Key.
 
 ```bash
 git clone https://github.com/Paramahir/PlantCareLLM.git
