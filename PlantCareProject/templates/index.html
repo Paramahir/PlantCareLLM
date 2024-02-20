@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Data Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</head>
+<body>
+    <h1>Sensor Data Analysis Interface</h1>
+
+    <div id="sensorData">
+        <h2>Sensor Data</h2>
+        <p>Soil Moisture: <span id="soilMoisture">--%</span></p>
+        <p>Temperature: <span id="temperature">--°C</span></p>
+        <p>Humidity: <span id="humidity">--%</span></p>
+    </div>
+    
+    <div id="commonQuestions">
+        <h2>Common Questions</h2>
+        <ul id="commonQuestionsList">
+            <!-- Common questions will be loaded here -->
+        </ul>
+    </div>
+    
+    <div id="userQuery">
+        <h2>Ask a Question</h2>
+        <input type="text" id="queryInput" placeholder="Enter your query">
+        <button onclick="askQuestion()">Ask</button>
+    </div>
+
+    <div id="response">
+        <h2>Response</h2>
+        <p id="responseText"></p>
+    </div>
+
+    
+</body>
+</html>
